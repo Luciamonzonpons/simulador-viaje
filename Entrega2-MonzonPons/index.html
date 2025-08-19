@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador de Viajes Interactivo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🌍 Simulador de Viajes</h1>
+    <p>Elegí tu destino, calculá tu presupuesto y planeá tu aventura perfecta</p>
+</header>
+<main>
+    <section class="simulador">
+    <h2>Elegí tu destino</h2>
+    <select id="destino-select">
+        <option value="">-- Seleccioná un destino --</option>
+    </select>
+    <h2>Cantidad de días</h2>
+    <input type="number" id="dias-input" placeholder="Ej: 5" min="1">
+    <h2>Presupuesto disponible</h2>
+    <input type="number" id="presupuesto-input" placeholder="Ej: 2000" min="0">
+    <button id="calcular-btn">Calcular viaje</button>
+    <div id="resultado"></div>
+    </section>
+</main>
+<footer>
+    <p>Simulador de viajes - Agencia Virtual ✈️</p>
+</footer>
+<script src="proyecto.js"></script>
+</body>
+</html>
